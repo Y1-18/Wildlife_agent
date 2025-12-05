@@ -1,0 +1,76 @@
+💻 Running on local machine
+✅ Static files mounted from: /teamspace/studios/this_studio/.lightning_studio/wildlife-analysis/static
+✅ Templates loaded from: /teamspace/studios/this_studio/.lightning_studio/wildlife-analysis/templates
+
+🌩️  Lightning AI Configuration:
+   HOST: 0.0.0.0
+   PORT: 8080
+   Environment: Local
+
+🌐 Server will be available at: http://localhost:8080
+📍 API docs: http://localhost:8080/docs
+📍 Health check: http://localhost:8080/health
+
+INFO:     Started server process [532349]
+INFO:     Waiting for application startup.
+
+================================================================================
+🚀 INITIALIZING WILDLIFE ANALYSIS SYSTEM (Lightning AI)
+================================================================================
+
+📦 Loading models...
+🔧 Using device: cpu
+
+============================================================
+📦 LOADING MODELS
+============================================================
+
+🖼️  Loading vision model...
+   Attempting: Falconsai/nsfw_image_detection
+   ✅ Primary model loaded: Falconsai/nsfw_image_detection
+
+🤖 Initializing Gemini API...
+   ⚠️  No Gemini API key found
+   📝 Set GEMINI_API_KEY or GOOGLE_API_KEY environment variable
+   💡 Get your free key at: https://makersuite.google.com/app/apikey
+
+============================================================
+✅ MODEL LOADING COMPLETE
+============================================================
+
+
+📚 Initializing knowledge base...
+
+============================================================
+INITIALIZING RAG SYSTEM
+============================================================
+
+📦 Loading embedding model...
+   Using langchain_huggingface
+sh: 1: nvidia-smi: not found
+   ✅ Embedding model loaded
+
+📚 Searching for ChromaDB...
+   ✓ Found ChromaDB at: /teamspace/studios/this_studio/.lightning_studio/chroma_db
+   Using langchain_chroma
+   ✅ Vector database loaded successfully
+   📊 Test query returned 5 results
+============================================================
+✅ RAG SYSTEM READY
+============================================================
+
+🔧 Setting up inference pipeline...
+
+================================================================================
+✅ SYSTEM READY
+================================================================================
+
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50122 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+
+🔄 Shutting down...
+INFO:     Application shutdown complete.
+INFO:     Finished server process [532349]

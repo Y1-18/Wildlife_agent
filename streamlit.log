@@ -1,0 +1,9 @@
+2025-12-03 02:13:00.068 "deprecation.showfileUploaderEncoding" is not a valid config option. If you previously had this config option set, it may have been removed.
+2025-12-03 02:13:00.069 "deprecation.showPyplotGlobalUse" is not a valid config option. If you previously had this config option set, it may have been removed.
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8502
+
+2025-12-03 02:13:22.751 The `use_column_width` parameter has been deprecated and will be removed in a future release. Please utilize the `use_container_width` parameter instead.
+  Stopping...
